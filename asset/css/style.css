@@ -1,0 +1,209 @@
+/*----------------------
+Box size
+------------------------*/
+.selector-for-some-widget
+{
+   box-sizing: content-box;
+}
+
+/*----------------------
+Other
+------------------------*/
+.hover_gold:hover
+{
+   color: #b39f79;
+}
+
+.hover_img:hover
+{
+   opacity: 0.5;
+}
+
+#txt_black
+{
+   color: black;
+}
+
+#txt_black:hover
+{
+   color: #b39f79;
+}
+
+/*----------------------
+Body Edit Start
+------------------------*/
+body
+{
+   margin: 0;
+   padding: 0;
+   font-family: 'Noto Serif JP',serif;
+   background-color: black;
+}
+
+/*----------------------
+Header Edit Start
+------------------------*/
+header
+{
+   width: 100%;
+   padding: 30px 4% 10px;
+   background-color: black;
+   display: flex;
+   align-items: center;
+}
+
+header #hdtitle
+{
+   font-size: 35px;
+}
+
+header .hover_gold
+{
+   color: white;
+}
+
+header nav
+{
+   color: white;
+   margin: 0 0 0 auto;
+}
+
+header nav ul
+{
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+header nav ul li
+{
+   margin: 0 0 0 15px;
+   text-decoration: none;
+}
+
+header nav ul li a
+{
+   font-size: 25px;
+}
+/*----------------------
+Header Edit End
+------------------------*/
+
+/*----------------------
+Main Edit Start
+------------------------*/
+main
+{
+   text-align: center;
+}
+
+main .WelcomeMovie
+{
+   text-align: center;
+   width: 100%;
+}
+
+/*----------------------
+Me Edit Zone
+------------------------*/
+.Me
+{
+   padding: 40px 14% 20px;
+   color:white;
+}
+
+.Me h5
+{
+   color: gray;
+}
+
+.Me a
+{
+   font-size: 20px;
+   color: white;
+}
+
+/*----------------------
+GameList Zone
+------------------------*/
+.GameList
+{
+   padding: 60px 34% 40px;
+   background-color: white;
+   color: black;
+   font-size: 30px;
+   text-align: center;
+}
+
+.GameList h6
+{
+   color: gray;
+}
+/*----------------------
+WebList Zone
+------------------------*/
+.WebList
+{
+   padding: 60px 34% 40px;
+   background-color: white;
+   color: black;
+   font-size: 30px;
+   text-align: center;
+}
+
+.WebList h6
+{
+   color: gray;
+}
+
+/*----------------------
+Skill Zone
+------------------------*/
+.SkillList
+{
+   padding: 60px 34% 40px;
+   background-color: white;
+   color: black;
+   font-size: 30px;
+   text-align: center;
+}
+
+.SkillList h6
+{
+   color:  gray;
+}
+
+/*----------------------
+Main Edit End
+------------------------*/
+
+/*----------------------
+Footer Edit Start
+------------------------*/
+footer
+{
+   padding: 60px 34% 40px;
+   background-color: black;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+}
+
+footer p
+{
+   color: gray;
+   font-size: 15px;
+}
+
+.mail
+{
+   color: white;
+}
+
+.mail:hover
+{
+   color: #b39f79;
+}
+/*----------------------
+Footer Edit End
+------------------------*/
